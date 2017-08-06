@@ -1,0 +1,26 @@
+﻿.field-validation-error {color: #f00;}
+.field-validation-valid {display: none;}
+.input-validation-error {border: 1px solid #f00; background-color: #fee;}
+.validation-summary-errors {font-weight: bold; color: #f00;}
+.validation-summary-valid {display: none;}
+
+body{background-color:aquamarine;}
+
+p {
+    text-align: center;
+    font-size:larger;
+    background-color:darkblue;
+    color:azure;
+}
+
+input[type="submit"] {
+    padding: 12px;
+    background: rgba(0, 0, 0, 0);
+    color:blueviolet;
+    border: 2px solid;
+    border-radius: 5px;
+    margin:auto;
+    width: 200px;
+    font:bold 24px italic;
+    margin-left:44%;
+}

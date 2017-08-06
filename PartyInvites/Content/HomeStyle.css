@@ -1,0 +1,16 @@
+﻿body {
+    background-color:cadetblue;
+    height:auto;
+    width:auto;
+}
+p{
+    color:blue;
+    font:bold 24px italic, oblique;
+    font-size:x-large;
+}
+div{
+    text-align:center;
+    background-color:aqua
+}
+
+b{color:white;}

@@ -9,13 +9,15 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css"/>
     <title>RsvpForm</title>
 </head>
 <body>
 @using (Html.BeginForm())
 {
-    <p>Your name: @Html.TextBoxFor(x=>x.Name)</p>
-    <p>Your email: @Html.TextBoxFor(x=>x.Emil)</p>
+    @Html.ValidationSummary()
+    <p>Your name:  @Html.TextBoxFor(x=>x.Name)</p>
+    <p>Your email: @Html.TextBoxFor(x=>x.Email)</p>
     <p>Your phone: @Html.TextBoxFor(x=>x.Phone)</p>
     <p>
         Will you attend?
@@ -32,9 +34,7 @@
         },
             "Choose an option")
     </p>
-    <input type="submit" value="Submit RSPV" />
+    <input type="submit" value="Submit"/>
 }
-<div>
-</div>
 </body>
 </html>

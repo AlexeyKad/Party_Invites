@@ -8,16 +8,16 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/HomeStyle.css" />
     <title>Index</title>
 </head>
 <body>
 <div>
-    @ViewBag.Greeting World (from the view)
+    @ViewBag.Greeting World
     <p>
         We're going to have an exciting party.<br/>
-        (To do: sell it better. Add pictures or something.)
     </p>
-    @Html.ActionLink("RSVP Now", "RsvpForm")
+    @Html.ActionLink("Registration Now", "RsvpForm")
 </div>
 </body>
 </html>
